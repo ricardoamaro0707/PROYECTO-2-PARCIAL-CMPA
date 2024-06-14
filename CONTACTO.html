@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="CONTACTO.css">
+</head>
+<body>
+    <header><!--abre etiqueta del encabezado-->
+        <div class="container">
+        <div class="flotante-logo"><!--se abre clase para flotante-->
+            <img src="https://static.wixstatic.com/media/754c86_f87b36d3c6654a10a76d65da485cffa7~mv2.png/v1/fill/w_460,h_446,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/disco%201%20-%20copia.png" alt="imagen logo" width="150px">
+            
+        </div>
+        <h1>CMPA</h1><!--nombre de la página-->
+        <div>    
+        <nav class="cabez">
+                <ul><!--se crea una lista con hipervíncunculos a las difetentes secciones de la página-->
+                  <li><a href="INICIO.html">INICIO</a></li>
+                  <li><a href="CAMPAÑAS.html">CAMPAÑAS</a></li>
+                  <li><a href="AYUDA.html">AYUDA</a></li>
+                  <li><a href="CONTACTO.html">CONTACTANOS</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </div>
+    </header>
+
+    <div class="contacto"><!--se abre clase para agregar texto-->
+        <h2>CONTACTO</h2>
+        <p>Atención telefónica</p>
+        <h3>800 623 2323</h3>
+        <p>Orientación sobre trámites y servicios institucionales en las opciones:</p>
+
+        <ol>
+            <li>0-Personas Trabajadoras del Hogar</li>
+            <li>1-Derechohabiente.</li>
+            <li>2-Contribuyente.</li>
+        </ol>
+
+        <h3>800 681 2525</h3>
+        <p>Cita médica</p>
+        <p>Lunes a viernes de 08:00 - 20:00 horas.</p>
+        <p>Sábados, domingos y festivos de 08:00 - 14:00 horas.</p>
+    </div>
+    <hr>
+
+
+    <div class="container2"><!--se abre contenedor para agregar formulario-->
+        <form action="#" name="ejemplo" method="post">
+     
+            <label for="nombre">Nombre:</label><!--se le da etiqueta a un elemento del formulario-->
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label><!--se le da etiqueta a un elemento del formulario-->
+            <input type="email" id="email" name="email" required>
+
+            <label for="numero_tel">Número Telefónico::</label><!--se le da etiqueta a un elemento del formulario-->
+            <input type="number" id="numero_tel" name="numero_tel" required>
+    
+            <label for="edad">Edad:</label><!--se le da etiqueta a un elemento del formulario-->
+            <input type="number" id="edad" name="edad" required>
+
+            <label for="comentarios">Comentarios:</label><!--se le da etiqueta a un elemento del formulario-->
+            <textarea name="comentarios" id="comentarios"></textarea>
+    
+            <label for="califica_pagina">Califica la Página: </label>
+            <select id="califica_pagina" name="califica_pagina" required>
+                <option value="">Seleccione</option>
+                <option value="muy satisfecho">Muy Buena</option>
+                <option value="satisfecho">Buena</option>
+                <option value="insatisfecho">Mala</option>
+                <option value="muy insatisfecho">Deja de Programar</option>
+            </select>
+            
+
+            <div class="espacio1"></div>
+    
+            <input type="submit" value="Enviar">
+        </from>
+    
+        </div>
+
+    
+</body>
+</html>

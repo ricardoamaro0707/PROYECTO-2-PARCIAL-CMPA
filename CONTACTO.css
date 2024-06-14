@@ -1,0 +1,228 @@
+/*estilos para cuerpo*/
+body{
+    background-color: rgb(58, 109, 66);
+    color: white;
+    overflow-y: scroll;
+    text-align: center;
+}
+/*estilos para encabezado*/
+header{
+    text-align: left;
+}
+/*estilos para contenedor*/
+.container{
+    border: 1px solid rgb(82, 155, 93);
+    padding: 20px;
+    overflow: auto;
+    background-color: rgb(78, 146, 88);
+    display: inline-flex;
+    width: 100%;
+    gap: 20px;
+}
+/*estilos para flotante*/
+.flotante-logo{
+    float: left;
+    margin-left: 20px;
+}
+/*estilos para lista en clase cabez*/
+.cabez ul{
+    color: white;
+    padding: 30px;
+
+}
+/*estilos para lista en clase cabez*/
+.cabez li{
+    list-style: none;
+    color: white;
+    display: inline-block;
+}
+/*estilos para lista en clase cabez*/
+.cabez a{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    padding: 50px;
+}
+/*estilos para contenedor1*/
+.container1{
+    border: 1px solid rgb(82, 155, 93);
+    padding: 20px;
+    overflow: auto;
+    background-color: rgb(78, 146, 88);
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+}
+/*estilos para lista desordenada*/
+ul{
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+/*estilos para elementos de la lista*/
+li{
+    list-style: none;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+}
+/*estilos para text con hipervínculos*/
+a{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+}
+/*ajustar propiedades letras en h1*/
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+/*ajustar propiedades letras en h2*/
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+}
+
+
+/*estilo para clase title*/
+.title{
+    text-align: center;
+}
+/*estilo para clase información*/
+.informacion{
+    text-align: center;
+}
+
+h9{
+    font-size: 30px;
+}
+/*estilo para clase contacto*/
+.contacto {
+
+justify-content: center; /* Centra horizontalmente */
+align-items: center; /* Centra verticalmente */
+
+background-color: rgb(58, 109, 66);; /* Solo para visualización */
+height: auto;
+width: auto;
+}
+/*ajustar propiedades letras en h1 en clase contacto*/
+.contacto h2 {
+font-size: 60px;
+color: white;
+}
+/*ajustar propiedades letras en p en clase contacto*/
+.contacto P {
+font-size: 45px;
+color: rgb(255, 255, 255);
+}
+/*ajustar propiedades letras en h3 en clase contacto*/
+.contacto h3 {
+font-size: 90px;
+color: rgb(0, 0, 0);
+font-family: Helvetica;
+}
+/*ajustar propiedades lista ordenada en clase contacto*/
+.contacto ol {
+display: flex;
+flex-direction: column;
+align-items: center;
+list-style-position: inside; /* Para que los números estén dentro del contenedor */
+}
+/*ajustar propiedades lista en clase contacto*/
+.contacto ol li {
+font-size: 40px;
+font-family: Cambria;
+text-align: center;
+margin: 10px 0; /* Espacio entre elementos de la lista */
+color: black;
+}
+
+/*FORMULARIO*/
+
+/*ajusta propiedades de contenedor*/
+.container2{
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: rgb(78, 146, 88);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    height: auto;
+}
+/*estilo de texto de etiquetas*/
+label{
+    font-weight: bold;
+    font-size: 35px;
+    color: #000000;
+}
+/*estilo de componente para introducir texto*/
+input[type="text"]{
+    width: 100%;
+    height: 42px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 25px;
+
+}
+/*estilo de componente para introducir email, numero telefonico y edad*/
+input[type="email"], [type="number"]{
+    width: 100%;
+    height: 42px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 25px;
+}
+/*estilo de area de texto de componente mensaje*/
+textarea{
+    height: 90px;
+    width: 100%;
+    font-size: 25px;
+    
+}
+select{
+    width: 100%;
+    height: 49px;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 25px;
+
+}
+/*estilo de botón*/
+input[type="submit"]{
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 170px;
+    height: 60px;
+    font-size: 19px;
+    
+    
+}
+/*estilo de botón al interactuar con cursor*/
+input[type="submit"]:hover{
+    background-color: #98ff12;
+    width: 170px;
+    height: 60px;
+    font-size: 19px;
+    color: #000000;
+}
+/*da espacio entre dos componentes*/
+.espacio1{
+    margin-bottom: 20px;
+}
